@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0b0d">
+<title>Darlaga Creative — Social Content for Small Businesses</title>
+<style>
+:root{--bg:#0b0b0d;--panel:#151519;--line:#2c2c34;--text:#f7f7fb;--muted:#b5b5c0;--lime:#b6ff62;--pink:#ffb2dc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:-.04em;font-size:1.2rem}.brand span{color:var(--lime)}.nav a{font-size:.92rem;text-decoration:none;color:var(--muted)}
+.hero{padding:64px 0 44px;display:grid;grid-template-columns:1.3fr .7fr;gap:32px;align-items:center}.eyebrow{color:var(--lime);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem}h1{font-size:clamp(2.5rem,7vw,5rem);line-height:.98;letter-spacing:-.065em;margin:14px 0 20px}h1 em{font-style:normal;color:var(--lime)}.hero p{color:var(--muted);font-size:1.08rem;max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;text-decoration:none;border-radius:12px;padding:13px 18px;font-weight:800;background:var(--lime);color:#111}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}.hero-card{border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#1c1c22,#101014);padding:26px;transform:rotate(1deg)}.mini-label{font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}.sample{margin:16px 0;background:linear-gradient(135deg,#252536,#3e2541);border-radius:16px;min-height:220px;padding:22px;display:flex;flex-direction:column;justify-content:space-between}.sample .big{font-size:2.3rem;font-weight:950;line-height:.95;letter-spacing:-.05em}.sample .big span{color:var(--pink)}.sample small{color:#e4dce9}.tag{display:inline-block;border:1px solid #62606f;border-radius:999px;padding:5px 10px;font-size:.75rem;width:max-content}
+section{padding:42px 0}h2{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.04em;margin:0 0 12px}.sub{color:var(--muted);margin-top:0;max-width:650px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}.card h3{margin:8px 0}.price{font-size:2.2rem;font-weight:900;letter-spacing:-.05em;color:var(--lime)}.card p,.card li{color:var(--muted)}ul{padding-left:20px}.pill{font-size:.75rem;color:var(--lime);font-weight:800;text-transform:uppercase;letter-spacing:.1em}.featured{border-color:var(--lime)}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step:before{counter-increment:step;content:"0" counter(step);color:var(--lime);font-weight:900;font-size:1.5rem}.order{display:grid;grid-template-columns:.9fr 1.1fr;gap:22px}.formbox{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}label{display:block;font-weight:700;font-size:.9rem;margin:14px 0 6px}input,select,textarea{width:100%;padding:13px;border-radius:10px;border:1px solid #3a3a44;background:#0d0d11;color:var(--text);font:inherit}textarea{min-height:100px;resize:vertical}.formbox button{border:0;cursor:pointer;font:inherit;width:100%;margin-top:16px}.notice{font-size:.85rem;color:var(--muted)}.footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.hero,.order{grid-template-columns:1fr}.hero{padding-top:42px}.grid,.steps{grid-template-columns:1fr}.hero-card{transform:none}.nav{gap:14px}.nav a{font-size:.8rem}}
+</style>
+</head>
+<body>
+<header class="wrap nav"><div class="brand">DARLAGA<span>.</span></div><a href="#packages">Packages</a><a href="#order">Order / Contact</a></header>
+<main>
+<div class="wrap hero">
+  <div><div class="eyebrow">Creative content for small businesses</div><h1>Look like a <em>bigger brand.</em><br>Without the big budget.</h1><p>Affordable promotional graphics and social posts for local businesses, creators, and online shops. Clear pricing. Personal service. Made to fit your style. Contact: darlagacreative@gmail.com.</p><div class="actions"><a class="btn" href="#packages">See packages →</a><a class="btn secondary" href="#order">Request a sample</a></div></div>
+  <div class="hero-card"><div class="mini-label">Example concept • fictional business</div><div class="sample"><span class="tag">WEEKEND SPECIAL</span><div class="big">GOOD FOOD.<br><span>GOOD MOOD.</span></div><small>Fresh flavors. Made for your feed.</small></div><strong>Scroll-stopping design starts here.</strong><p class="notice">This is a sample concept, not a real client project.</p></div>
+</div>
+<section class="wrap" id="packages"><h2>Simple packages. No surprises.</h2><p class="sub">Start small, see how we work together, and add more content when you're ready.</p><div class="grid">
+  <article class="card"><div class="pill">Starter</div><h3>First Impression</h3><div class="price">$25</div><p>For a business that needs a quick refresh.</p><ul><li>3 custom social post graphics</li><li>1 promotional graphic</li><li>Captions included</li><li>One round of small edits</li></ul><a class="btn secondary" href="#order" onclick="pick('Starter — $25')">Choose Starter</a></article>
+  <article class="card featured"><div class="pill">Best to start</div><h3>Weekly Content</h3><div class="price">$45</div><p>A little more content for the week ahead.</p><ul><li>5 custom social post graphics</li><li>2 promotional graphics</li><li>Captions included</li><li>One round of small edits</li></ul><a class="btn" href="#order" onclick="pick('Weekly Content — $45')">Choose Weekly</a></article>
+  <article class="card"><div class="pill">Custom</div><h3>Build My Bundle</h3><div class="price">$60+</div><p>For a launch, sale, event, or new collection.</p><ul><li>Custom scope based on your needs</li><li>Consistent visual direction</li><li>Price confirmed before work begins</li><li>Great for promotions</li></ul><a class="btn secondary" href="#order" onclick="pick('Custom Bundle — $60+')">Ask about a bundle</a></article>
+</div><p class="notice">Introductory pricing. Turnaround and exact deliverables are agreed before payment. No guaranteed sales or engagement results.</p></section>
+<section class="wrap"><h2>How it works</h2><p class="sub">A straightforward process from first message to finished files.</p><div class="steps"><article class="card step"><h3>Tell me your idea</h3><p>Share your business name, colors, offer, and where you'll post.</p></article><article class="card step"><h3>Approve the direction</h3><p>We'll confirm the package, delivery date, and any edits before work starts.</p></article><article class="card step"><h3>Get your content</h3><p>Receive finished graphics and captions ready for you to review and post.</p></article></div></section>
+<section class="wrap order" id="order"><div><h2>Let's make your next post.</h2><p class="sub">Use the request form to prepare a message. It opens your email app with the details filled in so you can send it.</p><div class="card"><div class="pill">Good fit for</div><h3>Local businesses + online brands</h3><p>Barbers • Detailers • Food trucks • Cleaners • Clothing brands • Creators • Small shops</p><p class="notice">Darlaga Creative is a starter concept. Replace the contact email below with your real business email before publishing this page.</p></div></div>
+<form class="formbox" id="requestForm"><h3>Request a package</h3><label for="name">Your name</label><input id="name" required placeholder="Your name"><label for="business">Business name</label><input id="business" required placeholder="Your business or brand"><label for="package">Package</label><select id="package"><option>Starter — $25</option><option>Weekly Content — $45</option><option>Custom Bundle — $60+</option><option>Not sure yet</option></select><label for="goal">What do you need?</label><textarea id="goal" required placeholder="Example: a weekend sale post for Instagram"></textarea><label for="contact">Your email or Instagram handle</label><input id="contact" required placeholder="@yourhandle or you@example.com"><button class="btn" type="submit">Prepare my request →</button><p class="notice">Demo note: this opens an email draft. It does not collect or store your information.</p></form></section>
+</main>
+<footer class="wrap footer"><span>© <span id="year"></span> Darlaga Creative • Darlaga Creative</span><span>Built to start lean and grow one customer at a time.</span></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function pick(value){document.getElementById('package').value=value;}
+document.getElementById('requestForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const business=document.getElementById('business').value.trim();
+ const pkg=document.getElementById('package').value;
+ const goal=document.getElementById('goal').value.trim();
+ const contact=document.getElementById('contact').value.trim();
+ const subject=encodeURIComponent('Darlaga Creative inquiry — '+business);
+ const body=encodeURIComponent('Hi Darlaga Creative,\n\nMy name: '+name+'\nBusiness: '+business+'\nPackage: '+pkg+'\nWhat I need: '+goal+'\nMy contact: '+contact+'\n\nPlease let me know the next steps and confirm the price and turnaround before work begins.');
+ // Replace this placeholder with your real business email before publishing.
+ window.location.href='mailto:darlagacreative@gmail.com?subject='+subject+'&body='+body;
+});
+</script>
+</body>
+</html>
